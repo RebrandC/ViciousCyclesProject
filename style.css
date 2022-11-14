@@ -1,0 +1,62 @@
+/* Colors:
+Rich Black #0D1B2A, Oxford Blue #1B263B, Badazzle Blue #415A77, Shadow Blue #778DA9, Platinum #E0E1DD */
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#E0E1DD;
+
+}
+li, a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center ;
+    padding: 15px 5%;
+    color: #E0E1DD;
+    background-color: #1B263B;
+
+}
+.links{
+    list-style-type: none;
+}
+
+.links li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.links li a:hover{
+    color:darkturquoise;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.links #color1{
+    color:orange;
+}
+
+ .grid .welcome{
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 5%;
+    font-size: 72px;
+    line-height: 65px;
+}
+
+ .grid .heroimg{
+    display: flexbox;
+    justify-content: right;
+
+}
