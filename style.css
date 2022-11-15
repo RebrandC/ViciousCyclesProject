@@ -44,19 +44,76 @@ header{
     margin-right: auto;
 }
 
-.links #color1{
-    color:orange;
-}
 
- .grid .welcome{
+ .welcome{
     font-family: 'Roboto Slab', serif;
-    padding: 20px 5%;
     font-size: 72px;
     line-height: 65px;
+    margin-bottom: 30px;
+}
+ .content{
+    margin-bottom: 30px;
 }
 
- .grid .heroimg{
+.photo{
+    padding: 20px 2%;
+}
+
+ .heroimg{
     display: flexbox;
     justify-content: right;
+    border-radius: 10px;
+}
+
+.grid{
+    display: flex;
+    padding-bottom: 100px;
 
 }
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5%;
+}
+
+.btn{
+    background-color:#1B263B;
+    color: #E0E1DD;
+    padding: 15px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    border: none;
+    width: 50%;
+    margin: auto;
+}
+
+#contact{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    padding: 20px 5%;
+}
+
+.form{
+    padding: 10px 5%;
+}
+
+.field{
+    padding:10px;
+    width: 50%;
+    padding-bottom: 5px;
+}
+
+.leg{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:#1B263B;
+}
+
+#bcontact{
+    font-family: 'Roboto', sans-serif;
+}
+
+
