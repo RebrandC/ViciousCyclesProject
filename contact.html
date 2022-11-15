@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body id="bcontact">
+    <div>
+        <header>
+            <img class="logo" src="./Images/vicious-cycles-logo.png" alt="company logo" width="200px" height="20px">
+            <nav>
+                    <ul class="links">
+                        <li><a href="index.html"></a>Home</li>
+                        <li><a href="#"></a>Shop</li>
+                        <li><a href="#"></a>Service & Repairs</li>
+                        <li><a href="#"></a>Events</li>
+                        <li><a href="#"></a>Contact Us</li>
+                    </ul>
+            </nav>
+        </header>
+       </div>
+    
+       <div class="info">
+            <h2 id="contact">Let's Chat</h2>
+        <div class="form">
+        <fieldset class="field">
+        <form id="survey" method="post" action>
+            <label for="fname">First Name:</label>
+            <input type="text"  name="fName" id="fName">
+            <br><br>
+            <label for="lName">Last Name:</label>
+            <input type="text" name="lName" id="lName">
+            <br><br>
+            <label for="emial">Email Address:</label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+        <br><br> 
+        <fieldset class="field">
+            <legend class="leg">Are you a new or curent customer?</legend>
+            <label for="New Customer">Yup</label>
+            <input type="radio" name="Customer" value="Ncustomer" id="Ncustomer">
+            <br><br>
+            <label for="Current Customer">Nope</label>
+            <input type="radio" name="Customer" value="Ccustomer" id="Ccustomer">
+        </fieldset>
+        <br><br>
+        <fieldset class="field">
+            <legend class="leg">What style of bike interest you the most or select all that applys</legend>
+            <label for="Motorized Bikes">Motorized Bikes</label>
+            <input type="checkbox" name="Motorbike" value="Motorbike" id="Motorbike">
+            <br><br>
+            <label for="Mountain Bikes">Mountain Bikes</label>
+            <input type="checkbox" name="Mountbike" value="Mountbike" id="Mountbike">
+            <br><br>
+            <label for="Cruiser Bikes">Cruiser Bikes</label>
+            <input type="checkbox" name="Cbike" value="Cbike" id="Cbike">
+            <br><br>
+            <label for="BMX Bikes">BMX Bikes</label>
+            <input type="checkbox" name="Bbike" value="Bbike" id="Bbike">
+        </fieldset>
+       <br><br>
+        <label for="frequency biking">How frequent do you ride bikes?</label>
+            <select name="freq" id ="freq">
+                <option>Everyday</option>
+                <option>5-6 times a week</option>
+                <option>At least 3 times a week</option>
+                <option>once a week</option>
+                <option>Never</option>
+            </select>
+        <br><br>
+
+        <label for="feedback">Feel free to leave some feedback for the team</label>
+        <br>
+        <textarea id="fback" name="fback"></textarea>
+        <input type="submit" value="Submit">
+      
+        
+        </form>
+      </div>
+        
+       </div>
+</body>
+</html>
